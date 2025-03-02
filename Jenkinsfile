@@ -5,6 +5,7 @@ pipeline{
         stage("from shared lib"){
             steps{
                 script{
+                    echo "this is getting started"
                     hello()
                 }
 
